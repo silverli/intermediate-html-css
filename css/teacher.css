@@ -86,7 +86,6 @@ nav li a:hover {
 
 .hero {
     position: relative;
-    text-align: center;
     margin-top:15px;
 }
 
@@ -97,8 +96,6 @@ nav li a:hover {
 .hero h2 {
     position: absolute;
     bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
     right: 30px;
     color: white;
     font-size: 3em;
@@ -146,7 +143,7 @@ nav li a:hover {
 }
 
 .column img:hover, .column img:focus {
-    animation: jumpTrophy 1s ease-in 1;
+    animation: 1s jumpTrophy 0.3s ease-in 1;
 }
 
 .column a {
